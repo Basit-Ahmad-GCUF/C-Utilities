@@ -25,29 +25,62 @@ Also A Fucntion to Reset the Entire Consloe
 ```
 color::reset
 ```
-- Use with std::cout.
+Use with std::cout.
 ### style::
 Provides ANSI text style constants
 ```
 bold, dim, italic, underline, blink
 ```
 Combine with color constants freely. 
-- Use with std::cout.
+Use with std::cout.
 
 ## Classes
 ### sys::
-- clearscreen() — clears the console.
-- pause() — waits for any keypress.
-- playspinner(cycles, msg) — animated loading spinner.
-- printdots(count) — prints dots with delay, useful for exit animations.
-- type_write(message) — typewriter effect for strings.
-- timer(time, message) — countdown timer displayed inline.
-- maskedinput() — password input showing * instead of characters, Returns the Real String.
-- getint(message) — validated integer input, loops until valid.
-- getfloat(message) — validated float input, loops until valid.
+```
+clearscreen();
+```
+Clears the console.
+```
+pause();
+```
+Waits for any keypress.
+```
+playspinner(cycles, msg);
+```
+Animated loading spinner.
+```
+printdots(count);
+```
+Prints dots with delay, useful for exit animations.
+```
+type_write(message);
+```
+Typewriter effect for strings.
+```
+timer(time, message);
+```
+Countdown timer displayed inline.
+```
+maskedinput();
+```
+Password input showing * instead of characters, Returns the Real String.
+```
+getint(message);
+```
+Validated integer input, loops until valid.
+```
+getfloat(message);
+```
+Validated float input, loops until valid.
 ### design::
-- line(n, symbol) — prints a symbol n times in a row
-- draw_header(message, symbol) — draws a centered box with message inside
+```
+line(n, symbol);
+```
+Prints a symbol n times in a row
+```
+draw_header(message, symbol);
+```
+Draws a centered box with message inside
 
 ## How to Use
 ### Step 1 — Copy the file
@@ -95,7 +128,7 @@ design::draw_header("Hello", "="); // prints a box around Hello
 ```
 
 ## Author
-Basit Ahmad
+Basit Ahmad 
 Github: Basit-Ahmad-GCUF
 
 ## End-Note
