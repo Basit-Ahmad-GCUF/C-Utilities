@@ -4,7 +4,7 @@ A custom C++ Library For students to Help them in thier Projects.
 # utilities.h
 
 ## About
-"Utilities" As the name Suggests, is a Library Containing all the Necessary Functions that are used in almost every C++ project(Student). I mself had faced many problems with C++ in the very start, This Library would have helped me a lot.
+"Utilities" As the name Suggests, is a Library Containing all the Necessary Functions that are used in almost every C++ project(Student). I myself had faced many problems with C++ in the very start, This Library would have helped me a lot.
 It has Fucntions for:
 1. Getting Input.
 2. Styling Output.
